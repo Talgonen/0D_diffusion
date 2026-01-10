@@ -1,0 +1,9 @@
+k: 25
+dim: 1
+epochs: 10000
+train_size: 4096
+test_size: 32768
+batch_size: 32
+diff_timesteps: 4000
+means: None
+load_model: False

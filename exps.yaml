@@ -1,0 +1,8 @@
+- name: continual_learning_1_new_modal
+  means: [[20]]
+  load_model: ./results/pre_train_3_modals/model.pt
+  batch_size: 4096
+  test_epochs: 10
+- name: pre_train_3_modals
+  means: [[-10],[0],[10]]
+  test_epochs: 100
