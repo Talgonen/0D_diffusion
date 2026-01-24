@@ -13,7 +13,7 @@ This project is a personal learning and research initiative to deeply understand
 
 ## 🔬 Approach
 
-The project uses **1D Gaussian Mixture Models** as synthetic data, allowing for:
+The project uses **0D Gaussian Mixture Models** as synthetic data, allowing for:
 - Easy visualization of learned distributions
 - Fast iteration and experimentation
 - Clear comparison between original and generated samples
