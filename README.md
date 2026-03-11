@@ -19,6 +19,8 @@ The project uses **0D Gaussian Mixture Models** as synthetic data, allowing for:
 - Clear comparison between original and generated samples
 - Study of mode coverage and sample quality
 
+
+
 ## 📁 Project Structure
 
 ```
@@ -93,6 +95,18 @@ The model learns to generate samples from a mixture of Gaussians:
 
 - **Left**: Histogram comparing original data (blue) vs. generated samples (orange)
 - **Right**: Scatter plot showing the mapping from noise to generated samples
+
+### Training Progress
+
+Visual results from training runs are saved in `results/gifs/`:
+
+Pre-training learned distribution visualization:
+![Pre-training Animation](results/gifs/pre-training.gif)
+
+Continual learning distribution visualization (based on pre-trained):
+![Training Animation](results/gifs/continual-learning.gif)
+
+Results: While the left graph suggests catastrophic forgetting, the right graph reveals a more nuanced picture — the model retains prior knowledge but shifts it toward less frequently sampled regions.
 
 ## 🔧 Hyperparameters
 
